@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.image >img{
+    width: 100%;
+    object-fit: cover;
+}
+.image{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.image >p{
+ position: absolute;
+ z-index: 1;
+ font-size: 1.2em;
+ left: 0%;
+ bottom: -10%;
+ text-transform: uppercase;
+ padding: 10px 12px;
+ color: black;
+ background-color: aliceblue;
+ 
+}
+.newtitl{
+    padding:0 10px ;
+    text-align: left;
+}
+.newtitl>p{
+ font-size: 18px;
+ color:grey;
+}
